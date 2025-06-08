@@ -6,54 +6,157 @@
     <title>Document</title>
     <style>
         html {
-            background-color: #533B4D; 
-            font-family: "Caveat", cursive;
-            color: #f5deb3;
+            background-color: #533B4D;
         }
-        body {text-align: center;}
-        div {margin-top: 108px;}
-        img {
-            width: 50%;
-            border: 6.5px ridge #f5deb3;
+        .card {margin-bottom: 70px;}
+        img {width: 280px;}
+
+        .first>img, .third>img {
+            float: left; 
+            margin-right: 25px;
+            margin-bottom: 20px;
         }
-        h1 {
-            font-size: 45px; 
-            margin: 0px; 
-            padding-top: 0px; 
+        .second>img, .fourth>img {
+            float: right;
+            margin-left: 25px;
+            margin-bottom: 20px;
+        }
+        .first>img {border: 5px solid #f5deb3;}
+        .second>img {border: 10px double #f5deb3;}
+        .third>img {border: 5px dashed #f5deb3;}
+        .fourth>img {border: 10px ridge #f5deb3;}
+        div {
+            color: #f5deb3; 
+            font-family: cursive; 
+            font-style: italic;
+            margin-top: 50px;
+        }
+        p {text-align: center; font-size: 16px;}
+        @media (max-width: 600px) {
+        /* CSS for screens below or equal to 600px wide */
+            img {
+                width: 160px;
+            }
+            p {font-size: 17px; text-align: center;}
+            .third>img {width: 200px;}
+        }
+        span {
+            color: #f8e300;
+        }
+        body>a>img {
+            width: 30px; 
+            margin-left: 50%;
+            margin-top: 10px;
             margin-bottom: 10px;
         }
         .bottom {
-            margin-top: 80px;
+            margin-top: 90px;
             background-color: #533B4D;
+            width: 100%;
         }
+
         .bottom .iç {
             background-color: #d5ba89;
-            font-size: 20px;    
-            padding: 1px;
+            font-size: 20px;
+            padding: 1px 25% 1px 25%;    
             color: #533B4D;
             margin: 0px; 
             border-radius: 50px;
-
+            text-align: center;
         }
-        @media (max-width: 500px) {
-            img {width: 95%;}
-            div {margin-top: 40%;}
-            .bottom {margin-top: 35%;}
-        }
+        
     </style>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <h1>" Winter is coming. "</h1>
-        <hr style="margin-bottom: 10px;"/>
-        <a href="../index.html">
-            <img src="../assets/images/emilia clarke hbo GIF by Game of Thrones.gif" alt="emilia clark, mother of dragon, is entering the big castle door">
-        </a>
-        <hr style="margin-top: 6px;"/>  
-        <h2>" Click for enter "</h2>
+    <a href="../index.html">
+        <img src="../assets/images/home_50dp_F5DEB3_FILL0_wght400_GRAD0_opsz48.png" alt="Main page symbol">
+    </a>
+    <hr />
+    <div class="first card">
+        <img src="../assets/images/Game Of Thrones Drinking GIF by Sky.gif" alt="">
+        <p><span>A mind needs books as a sword needs a whetstone, if it is to keep its edge.</span>
+            That's what I do, I drink and I know things.
+            Never forget what you are, for surely the world will not. Make it your strength. Then it can never be your weakness. Armor yourself in it, and it will never be used to hurt you.
+            It's not easy being drunk all the time. If it were, everyone would do it.
+            A very small man can cast a very large shadow.
+            The more people you love, the weaker you are.
+            When you play the game of thrones, you win or you die. There is no middle ground.
+            My brother has his sword, King Robert has his warhammer, and I have my mind... and a mind needs books as a sword needs a whetstone, if it is to keep its edge. That's why I read so much, Jon Snow.
+            If you're going to be a cripple, it's better to be a rich cripple.
+            Love is the death of duty.
+            It's easy to mock a man when you're safe behind a wall.
+            The greatest fools are often overconfident.
+            I am a Lannister. We do not act like fools.
+            The future is not some grand battle, it's a thousand tiny victories and defeats, and the only way to see it is to live it.
+            Sometimes, a man's biggest strength is his biggest weakness.
+            Power is a curious thing... It's like a shadow on the wall. It's not real, but it's where people are looking. And when they look, they listen. 
+            Death is so terribly final, while life, ah, life is full of possibilities.
+            I have a tender spot in my heart for cripples, bastards and broken things.
+            I try to know as many people as I can. You never know who you'll need.
+            I wish I were the monster you think I am.
+            Justice? You've come to the wrong place.
+        </p> 
+    </div>
+    <div class="second card">
+        <img src="../assets/images/winter is coming GIF.gif" alt="">
+        <p>All men must die. The North remembers. Forgive my manners. I don't see many ladies these days. 
+            Lucky for the ladies. It is rare to meet a Lannister who shares my enthusiasm for dead Lannisters. 
+            All men must die. Never Resting. The North remembers. Forgive my manners. I don't see many ladies these days. 
+            Lucky for the ladies. A Lannister always pays his debts. King in the North. Words are like wind. 
+            Pay the iron price. The bear and the maiden fair. Bastards are born of passion, aren't they? 
+            We don't despise them in Dorne. As High as Honor.
+            The battle of the redgrass field. Bastards are born of passion, aren't they? We don't despise them in Dorne. 
+            A forked purple lightning bolt, on black field speckled with four-pointed stars. Unbowed, Unbent, Unbroken. 
+            Winter is coming. The bear and the maiden fair. The wolf and the lion. And now his watch is ended. 
+            More pigeon pie, please. The War of the 5 kings. Pay the iron price. Our Sun Shines Bright. 
+            May the Father judge him justly. Bastards are born of passion, aren't they? We don't despise them in Dorne. 
+            A Lannister always pays his debts. When you play the game of thrones, you win or you die. 
+            It is rare to meet a Lannister who shares my enthusiasm for dead Lannisters. And now his watch is ended. 
+            I would like a trial by combat. A Lannister always pays his debts. Unbowed, Unbent, Unbroken. 
+            I would like a trial by combat. Can a man still be brave if he’s afraid? That is the only time a man can be brave.
+            King in the North. The night is dark and full of terrors. House Tarly of Horn Hill Words are like wind. 
+            House Tarly of Horn Hill A dream of Spring. The night is dark and full of terrors. The wolf and the lion. 
+            The battle of the redgrass field. A Lannister always pays his debts. A dream of Spring. Pay the iron price.
+            A good act does not wash out the bad, nor a bad act the good. Each should have its own reward. The War of the 5 kings. 
+            The rains of castamere. King in the North. What is dead may never die. Words are like wind. 
+            Bastards are born of passion, aren't they? We don't despise them in Dorne. The battle of the redgrass field. 
+            Forgive my manners. I don't see many ladies these days. 
+            Lucky for the ladies. Can a man still be brave if he’s afraid? That is the only time a man can be brave.
+        </p> 
+    </div>
+    <div class="third card">
+        <img src="../assets/images/Come At Me Bring It GIF by Game of Thrones.gif" alt="">
+        <p>The North remembers. The War of the 5 kings. All men must die. The Knight of Lemonwood. 
+            May the Father judge him justly. A Lannister always pays his debts. I would like a trial by combat. 
+            Our Sun Shines Bright. The wolf and the lion. A dream of Spring. 
+            Bastards are born of passion, aren't they? We don't despise them in Dorne. 
+            A forked purple lightning bolt, on black field speckled with four-pointed stars. The winds of Winter.
+            The bear and the maiden fair. Pay the iron price. Pay the iron price. Our Sun Shines Bright. As High as Honor. 
+            You know nothing, Jon Snow. House Tarly of Horn Hill I pledge my life and honor to the Night's Watch, 
+            for this night and all the nights to come. The rains of castamere. I would like a trial by combat. 
+            Winter is coming. The battle of the redgrass field. The wolf and the lion. Fire and blood. 
+            I pledge my life and honor to the Night's Watch, for this night and all the nights to come. Forgive my manners. 
+            I don't see many ladies these days. Lucky for the ladies. The War of the 5 kings. The War of the 5 kings. 
+            I pledge my life and honor to the Night's Watch, for this night and all the nights to come. The North remembers. 
+            Bastards are born of passion, aren't they? We don't despise them in Dorne. Unbowed, Unbent, Unbroken.
+        </p> 
+    </div>
+    <div class="fourth card">
+        <img src="../assets/images/dracarys.gif" alt="">
+        <p>A Lannister always pays his debts. And now his watch is ended. And now his watch is ended. Forgive my manners. 
+            I don't see many ladies these days. Lucky for the ladies. Words are like wind. Forgive my manners. 
+            I don't see many ladies these days. Lucky for the ladies. The North remembers. Fire and blood. Never Resting. 
+            Unbowed, Unbent, Unbroken. The bear and the maiden fair. Winter is coming. The War of the 5 kings. 
+            And now his watch is ended. Never Resting. Pay the iron price. Words are like wind. 
+            A forked purple lightning bolt, on black field speckled with four-pointed stars. King in the North. 
+            The bear and the maiden fair. May the Father judge him justly. I would like a trial by combat. 
+            The War of the 5 kings. You know nothing, Jon Snow. King in the North. Winter is coming. As High as Honor. 
+            The War of the 5 kings. Unbowed, Unbent, Unbroken. You know nothing, Jon Snow. As High as Honor. 
+            I pledge my life and honor to the Night's Watch, for this night and all the nights to come. 
+            It's ten thousand miles between Kings landing and the wall. 
+            I pledge my life and honor to the Night's Watch, for this night and all the nights to come. 
+            Can a man still be brave if he’s afraid? That is the only time a man can be brave.
+        </p> 
     </div>
     <footer class="bottom">
         <div class="iç">
@@ -61,4 +164,4 @@
         </div>
     </footer>
 </body>
-</html> 
+</html>
